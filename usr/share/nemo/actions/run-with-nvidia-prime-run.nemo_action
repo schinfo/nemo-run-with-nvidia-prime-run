@@ -1,10 +1,10 @@
-# version 0.0.1
+# version 0.1.0
 
 [Nemo Action]
 
-Name[en_GB]=Run with nVidia GPU
+Name=Run with nVidia GPU
 
-Comment[en_GB]=Run %f with dedicated nVidia graphic card
+Comment=Run %f with dedicated nVidia graphic card
 
 Exec=prime-run %F
 
@@ -17,3 +17,12 @@ Mimetypes=application/x-executable;application/x-shellscript;text/x-script.phyto
 Dependencies=prime-run;
 
 EscapeSpaces=true
+
+Selection=s
+Name[en_GB]=Run with nVidia GPU
+Name[de]=Programmstart mit nVidia GPU
+Name[it]=Esegui con la GPU nVidia
+
+Comment[en_GB]=Run %f with dedicated nVidia graphic card
+Comment[de]=Startet %f mit dedizierter nVidia-Grafikkarte
+Comment[it]=Esegui %f con la scheda grafica dedicata nVidia
