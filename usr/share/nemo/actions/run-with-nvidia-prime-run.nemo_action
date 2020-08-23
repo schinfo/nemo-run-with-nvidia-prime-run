@@ -1,0 +1,19 @@
+# version 0.0.1
+
+[Nemo Action]
+
+Name[en_GB]=Run with nVidia GPU
+
+Comment[en_GB]=Run %f with dedicated nVidia graphic card
+
+Exec=prime-run %F
+
+Icon-Name=nvidia-settings
+
+Selection=s
+
+Mimetypes=application/x-executable;application/x-shellscript;text/x-script.phyton;application/x-bytecode.python;
+
+Dependencies=prime-run;
+
+EscapeSpaces=true
